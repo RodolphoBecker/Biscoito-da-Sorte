@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.biscoito-corpo {
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    font-family: 'Ma Shan Zheng';
+    font-size: 5.0rem;
+    color: #ffca62;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3{
+    font-family: 'Ma Shan Zheng';
+    font-size: 3.0rem;
+    color: #ffca62;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.botao {
+    font-family: 'Ma Shan Zheng';
+    font-size: 2rem;
+    border: none;
+    background-color: #ffca62;
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: #bf122d;
+    outline: none;
+    border: 1px solid #ffca62;
+    transition: all ease .5s;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.botao:hover {
+    transition: all ease .5s;
+    background-color: #bf122d;
+    border: 1px solid #ffca62;
+    color: #ffca62;
 }
