@@ -1,3 +1,3 @@
 #React - Biscoito da Sorte
 
-Simples aplicação feita em react que ao clicar em um botão ele gera para o usuário uma mensagem randomizada do biscoito da sorte
+Simple application made in react that when clicking a button it generates for the user a random message of the fortune cookie
